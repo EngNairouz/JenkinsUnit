@@ -21,7 +21,7 @@ namespace TestProject
 
             var homeController = new HomeController();
             var result = homeController.Index() as ViewResult;
-            Assert.Equal("Index", result?.ViewName);
+            Assert.Equal("I", result?.ViewName);
 
         }
     }
